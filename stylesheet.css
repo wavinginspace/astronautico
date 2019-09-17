@@ -20,16 +20,11 @@ h1:hover {
   transform: scale(1.02);
 }
 
-#socials {
-  display: inline-block;
-  text-align: center;
-}
 
-#socials, li {
-  display: inline;
-  text-align: center;
-  display:flex;
-  justify-content: center;
+#socials li {
+display: inline-block;
+float: none;
+text-align: center;
 }
 
 .socialicons {

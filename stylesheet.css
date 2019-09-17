@@ -17,6 +17,7 @@ h1 {
   font-size: 3em;
   text-align: center;
   margin-top: 50px;
+  transition: transform .5s;
 }
 
 h1:hover {
@@ -158,7 +159,19 @@ ul, li {
   font-size: 18px;
   color: white;
   text-align: right;
+  width: 27px;
+  transition: all 1s;
 }
+
+#paperplane:hover {
+  transform:rotateY(180);
+transform: scale3d(1.2,1.2,5);
+}
+
+/* .planetransform {
+  transition-property: all;
+  transition-delay: 2s;
+} */
 
 #navlist2 {
   white-space:nowrap;
@@ -179,6 +192,7 @@ ul, li {
   color: white;
   list-style: none;
   padding-left: 0;
+
   /* margin-left: 15px; */
 }
 
@@ -212,4 +226,9 @@ button, input[type="submit"]{
     cursor: pointer;
     outline: inherit;
     font-size: 10px;
+}
+
+.icons:hover {
+  -webkit-filter: invert(100%);
+  transform: scale(1.1);
 }

@@ -195,7 +195,7 @@ ul, li {
 }
 
 #paperplane:hover {
-  transform: scale3d(1.5,1.2,5);
+transform: scale(1.1);
 
 }
 

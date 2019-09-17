@@ -16,11 +16,10 @@
 }
 
 .headercontainer {
-  display:flex;
-  justify-content: center;
   text-align: center;
+  /* position: relative;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 
 a {
@@ -33,6 +32,9 @@ a:hover {
 }
 
 h1 {
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
   white-space: pre;
   text-decoration: none;
   /* display:inline; */
@@ -40,7 +42,7 @@ h1 {
   font-family: 'Space Mono', arial;
   font-weight: bold;
   font-size: 3em;
-  text-align: center;
+
   margin-top: 50px;
   transition: transform .5s;
   color: #222;

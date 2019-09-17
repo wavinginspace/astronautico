@@ -20,14 +20,21 @@ h1:hover {
   transform: scale(1.02);
 }
 
+#socials {
+  display: inline-block;
+  text-align: center;
+}
+
 #socials, li {
-  display: flex;
+  display: inline;
+  text-align: center;
+  display:flex;
   justify-content: center;
 }
 
 .socialicons {
-  display:flex;
   justify-content: center;
+  text-align: center;
 }
 
 #astrologo:hover {

@@ -191,11 +191,13 @@ ul, li {
   text-align: right;
   width: 27px;
   transition: all 1s;
+  animation: pulse 2s infinite;
 }
 
 #paperplane:hover {
   transform:rotateY(180);
-transform: scale3d(1.2,1.2,5);
+  transform: scale3d(1.2,1.2,5);
+
 }
 
 /* .planetransform {

@@ -1,0 +1,196 @@
+#astrologo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 35%;
+}
+
+h1 {
+  font-family: 'Space Mono', arial;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1:hover {
+  cursor:pointer;
+  color: #ff5f3a;
+  transform: scale(1.02);
+}
+
+
+#astrologo:hover {
+    animation: pulse 2s infinite;
+    cursor: pointer;
+  }
+
+  @keyframes pulse {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+
+    50% {
+      -webkit-transform: scale3d(1.05, 1.05, 1.05);
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+}
+      #navheaderbar {
+        white-space:nowrap;
+        width: 100%;
+        background-color: #333;
+      }
+
+      #navheaderbar:before{
+    content: "";
+    padding-top: 50px;
+}
+
+ .navlink, li {
+  font-family: "Space Mono";
+  font-size: 18px;
+  color: white;
+  line-height: 50px;
+  margin-left: 20px;
+  margin: 0;
+  padding-left: 10px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+ul, li {
+  display: inline;
+  padding: 5px;
+}
+
+#emailform {
+  background-color:rgba(0, 0, 0, 0);
+  display: inline;
+  position: relative;
+  margin: 0;
+  margin-right: 10px;
+  text-align: right;
+  color:white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  outline:none;
+  height:50px;
+  transition:height 1s;
+  -webkit-transition:height 1s;
+  float:right;
+}
+
+
+#email {
+  background-color:rgba(0, 0, 0, 0);
+  display: inline;
+  position: relative;
+  margin: 0;
+  margin-right: 10px;
+  margin-top: 1px;
+  text-align: right;
+  color:white;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  outline:none;
+  height:50px;
+  transition:height 1s;
+  -webkit-transition:height 1s;
+  float:right;
+}
+
+#rightlink {
+  display: inline;
+  position: relative;
+  text-align: right;
+  margin: 0;
+  margin-right: 20px;
+  line-height: 50px;
+  float: right;
+  font-family: "Space Mono";
+  font-size: 18px;
+  color: white;
+
+}
+
+#paperplane {
+  display: inline;
+  position: relative; */
+  margin: 0;
+  margin-right: 15px;
+  margin-top: 11px;
+  line-height: 50px;
+  float: right;
+  font-family: "Space Mono";
+  font-size: 18px;
+  color: white;
+  text-align: right;
+}
+
+#navlist2 {
+  white-space:nowrap;
+}
+/*
+.navlink {
+  font-family: "Space Mono";
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+} */
+
+.firstline {
+  font-family: "Space Mono";
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  padding-left: 0;
+  /* margin-left: 15px; */
+}
+
+.leftline {
+  font-family: "Space Mono";
+  font-size: 18px;
+  color: white;
+  list-style: none;
+  padding-left: 0;
+  /* margin-left: 15px; */
+}
+
+#rightlink:hover {
+  color: #ff5f3a;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+#leftlink:hover {
+  color: #ff5f3a;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+button, input[type="submit"]{
+  background-image: url("paper-plane.svg") width="30px";
+  background-color: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 10px;
+}

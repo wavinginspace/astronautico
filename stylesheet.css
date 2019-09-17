@@ -25,6 +25,10 @@ h1:hover {
   justify-content: center;
 }
 
+.socialicons {
+  display:flex;
+  justify-content: center;
+}
 
 #astrologo:hover {
     animation: pulse 2s infinite;

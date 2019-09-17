@@ -25,6 +25,7 @@ h1:hover {
 display: inline-block;
 float: none;
 text-align: center;
+margin:auto;
 }
 
 .socialicons {

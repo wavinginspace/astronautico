@@ -20,6 +20,11 @@ h1:hover {
   transform: scale(1.02);
 }
 
+#socials, li {
+  display: flex;
+  justify-content: center;
+}
+
 
 #astrologo:hover {
     animation: pulse 2s infinite;

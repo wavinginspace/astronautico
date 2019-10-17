@@ -94,7 +94,7 @@ margin-right: 5px;
 }
       #navheaderbar {
         white-space:nowrap;
-        width: 100%;
+        width: 100vw;
         background-color: #333;
       }
 
